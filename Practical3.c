@@ -10,7 +10,7 @@
 int main(){
 
 float totalAmt;
-Char name[20];
+char name[20];
 int unit;
 
 printf("Enter your name:");
@@ -19,19 +19,20 @@ printf("Enter total units:");
 scanf("%d",&unit);
  
 if(unit<=200){
-totalAmt= unit*0.8+100;
+totalAmt= unit*0.8;
 }
 else if(unit<=300){
-totalAmt= 200*0.8+ (unit-200)*0.9+100;
+totalAmt= 200*0.8+ (unit-200)*0.9;
 }
 else{
-  totalAmt= 200*0.8 + 100*0.9+ ((unit-300)*1) +100;
+  totalAmt= 200*0.8 + 100*0.9+ ((unit-300)*1);
 }
 
+totalAmt+=100;
 if(totalAmt>400){
 totalAmt= totalAmt+ (0.15*totalAmt);
 }
 
-printf("The total Amt is:", totalAmt);
+printf("%s your total Amt is:", name, totalAmt);
 
 }
