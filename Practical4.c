@@ -1,3 +1,12 @@
+/*Aim:- write a c program to display the following by reading the number of rows as input.
+         
+           1
+        1  2  1
+     1  2  3  2  1
+  1  2  3  4  3  2  1
+
+*/
+
 #include <stdio.h>
 
 int main()
