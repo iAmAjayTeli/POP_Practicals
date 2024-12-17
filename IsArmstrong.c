@@ -3,7 +3,7 @@
 #include<stdbool.h>
 
 bool isArmstrong (int num){
-    int originalNum=num,power=0, resultNum=0;
+    int power=0, resultNum=0;
      
      int temp=num;
      
