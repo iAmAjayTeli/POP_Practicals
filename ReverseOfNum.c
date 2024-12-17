@@ -1,6 +1,6 @@
 #include<stdio.h>
 int reverse(int num){
-    int originalNum=num,reverseNum=0;
+    int reverseNum=0;
     while(num!=0){
         int remainder= num%10;
         reverseNum= reverseNum*10+remainder;
